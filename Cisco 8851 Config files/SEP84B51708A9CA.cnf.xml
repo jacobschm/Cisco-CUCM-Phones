@@ -9,6 +9,8 @@
       <timeZone>W. Europe Standard/Daylight Time</timeZone>
       <ntps>
         <ntp>
+        <!-- IP address of the time server of T-Online(here also another NTP server or the Fritzbox can be entered(does not work with Telekom Speedport routers))-->
+        <!-- IP-Adresse des Zeitservers von T-Online(hier kann auch ein anderer NTP Server oder die Fritzbox eingetragen werden(funktioniert nicht bei Telekom Speedport Routern))-->
           <name>194.25.134.196</name>
           <ntpMode>Unicast</ntpMode>
         </ntp>
@@ -23,6 +25,8 @@
               <sipPort>5060</sipPort>
               <securedSipPort>5061</securedSipPort>
             </ports>
+            <!-- IP address of the Rapsberry PI / PBX -->
+            <!-- IP Adresse des Rapsberry PI / der Telefonanlage-->
             <processNodeName>192.168.2.127</processNodeName>
           </callManager>
         </member>
@@ -144,10 +148,14 @@
     <videoCapability>0</videoCapability>
     <autoSelectLineEnable>0</autoSelectLineEnable>
     <webAccess>0</webAccess>
-   <!--- 
-   <displayOnTime>08:00</displayOnTime>
+    <!-- At what time the screen turns on -->
+    <!-- Um wieviel Uhr der Bildschrim angeht -->
+    <displayOnTime>08:00</displayOnTime>
+    <!-- How long the screen stays on (10 hrs.) -->
+    <!-- Wie lange der Bildschirm anbleibt (10 Std.) -->
     <displayOnDuration>10:00</displayOnDuration>
-    -->
+    <!-- When does the screen go off when "woken up" from sleep mode -->
+    <!-- Wann geht der Bilschirm aus wenn er aus dem Ruhemodus "geweckt" wird -->
     <displayIdleTimeout>00:01</displayIdleTimeout>
     <displayOnWhenIncomingCall>1</displayOnWhenIncomingCall>
     <spanToPCPort>0</spanToPCPort>
@@ -155,6 +163,8 @@
     <loadServer></loadServer>
   </vendorConfig>
   <versionStamp></versionStamp>
+  <!--Language Settings Defauklt Language: English-->
+  <!--Spracheinstellungen Ausgangssprache: Englisch-->
   <userLocale>
    <name>german_germany</name>
     <uid>1</uid>
