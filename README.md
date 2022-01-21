@@ -13,6 +13,6 @@ Dokumentation, wie ein Cisco CUCM-Telefon (in meinem Fall ein CP-8851-K9=) an ei
 Cisco CUCM Telefone können nur mit einem im Netzwerk befindlichem Server betrieben werden, der dem Telefon die Konfigurationsdaten sendet.
 
 ### ACHTUNG:
-Diese Anleitung ist **meine** Dokumentation wie ich das Cisco CUCM-Telefon an einer Telefonanlage (3CX bei mir) betreibe. Nur weil es bei mir mit diesen EInstellungen funktioniert, heißt es nicht, dass diese Anleitung Allgemeingültig für jeden ist.
+Diese Anleitung ist **meine** Dokumentation wie ich das Cisco CUCM-Telefon an einer Telefonanlage (3CX bei mir) betreibe. Nur weil es bei mir mit diesen EInstellungen funktioniert, heißt es nicht, dass diese Anleitung allgemeingültig für jeden ist.
 
 Der deutsche Text wurde (aus Faulheit) mit DeepL übersetzt.
