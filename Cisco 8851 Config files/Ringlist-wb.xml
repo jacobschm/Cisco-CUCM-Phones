@@ -1,0 +1,14 @@
+<CiscoIPPhoneRingList>
+    <Ring>
+        <DisplayName>ctusphone</DisplayName>
+        <FileName>ctusphone.rwb</FileName>
+    </Ring>
+    <Ring>
+        <DisplayName>Calculation</DisplayName>
+        <FileName>Calculation.rwb</FileName>
+    </Ring>
+    <Ring>
+        <DisplayName>Delight</DisplayName>
+        <FileName>Delight.rwb</FileName>
+    </Ring>
+</CiscoIPPhoneRingList>
